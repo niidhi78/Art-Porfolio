@@ -1,0 +1,18 @@
+.homeHeader {
+    margin-top: 20px;
+    padding: 5px;
+}   
+
+.cardHome {
+    width: 100%;
+}
+
+.homeImage {
+    height: 200px;
+    object-fit: cover;
+}
+
+.homeImage:hover {
+    filter: drop-shadow(14px 14px 18px #ccc) saturate(150%);
+    cursor: pointer;
+}
